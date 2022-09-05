@@ -18,6 +18,8 @@
 html {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  max-width: 414px;
+  margin: auto;
 }
 
 body {
@@ -53,24 +55,48 @@ nav {
 
 h1 {
   font-size: 30px;
+  font-weight: 400px;
   letter-spacing: 0;
 }
 
-h2 {
-  font-size: 16px;
+.intro-list {
+  margin: 53px 69px 0px 9px;
 }
 
+.intro-list {
+  display: flex;
+  flex-direction: row;
+  margin: 47px 284px 10px 9px;
+}
+
+h2,
 h3 {
   font-size: 12px;
 }
 
 p {
-  font-size: 26px;
+  font-size: 16px;
+  color: #000000;
+  line-height: 26px;
+  margin-bottom: 56px;
+}
+
+img {
+  margin-bottom: 28px;
+}
+
+.header a {
+  text-align: center;
 }
 
 footer {
+  margin-top: 16px;
   background-color: black;
   color: white;
+}
+
+.special-font {
+  font-size: 10px;
 }
 
 /* ====================================
