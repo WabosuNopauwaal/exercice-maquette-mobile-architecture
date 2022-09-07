@@ -54,6 +54,7 @@ nav {
 }
 
 h1 {
+  font-weight: normal;
   font-size: 30px;
   font-weight: 400px;
   letter-spacing: 0;
@@ -68,10 +69,13 @@ h1 {
   flex-direction: row;
   margin: 47px 284px 10px 9px;
 }
+h2 {
+  font-size: 12px;
+}
 
-h2,
 h3 {
   font-size: 12px;
+  font-weight: normal;
 }
 
 p {
@@ -93,6 +97,7 @@ footer {
   margin-top: 16px;
   background-color: black;
   color: white;
+  padding: 30px 296px 38px 7px;
 }
 
 .special-font {
